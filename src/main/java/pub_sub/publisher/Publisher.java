@@ -5,6 +5,6 @@ import pub_sub.dto.Message;
 
 public interface Publisher {
 
-  void publish(Message event, PublisherSubscriberService publisherSubscriberService);
+	void publish(Message event, PublisherSubscriberService publisherSubscriberService);
 
 }

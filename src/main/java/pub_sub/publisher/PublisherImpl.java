@@ -5,8 +5,8 @@ import pub_sub.dto.Message;
 
 public class PublisherImpl implements Publisher {
 
-  @Override
-  public void publish(Message message, PublisherSubscriberService publisherSubscriberService) {
-    publisherSubscriberService.addMessageToQueue(message);
-  }
+	@Override
+	public void publish(Message message, PublisherSubscriberService publisherSubscriberService) {
+		publisherSubscriberService.addMessageToQueue(message);
+	}
 }
